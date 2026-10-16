@@ -1,0 +1,9 @@
+# Datos
+- **Fuente:** datos simulados con fines didácticos, provistos por la cátedra
+  (TP de Correlación y Regresión, archivo `EstudioPresionEdad.csv`).
+- **Adaptación:** se agregó un código por paciente (`PAC-001` … `PAC-050`) y 8 registros con errores para ejercitar la validación.
+- **Formatos:** `mediciones.csv` (todos los valores como texto; faltante = cadena vacía) y `mediciones.json` (números como números; faltante = `null`). Ambos tienen el mismo contenido (58 registros).
+- **Unidad de análisis:** cada fila es un paciente adulto con una medición.
+- **Variables:** codigo, edad (años), imc (kg/m²), presion_sistolica (mmHg), grupo (A: control, B: intervención).
+- **Errores sembrados (8):** código mal formado (`PAC01`), edad faltante, presión fuera de rango (999), IMC no numérico (`abc`), grupo inválido (`C`), edad negativa, presión faltante y un código duplicado (`PAC-012`).
+- **Limitaciones:** datos simulados; 50 pacientes válidos; criterio de hipertensión simplificado (PAS >= 140 mmHg), sin valor diagnóstico.
