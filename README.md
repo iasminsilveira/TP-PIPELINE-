@@ -1,7 +1,7 @@
 # TP-PIPELINE-
 # Pipeline de control de presión arterial
 
-**Integrantes:** Silveira Fernández Iasmin - Ray Maria Alfonsina - Tacconi Constanza - Torres Clara
+**Integrantes:** Silveira Fernández Iasmin - Ray Maria Alfonsina - Tacconi Constanza - Torres Clara - Fissore Rocío
 
 ## Problema y usuario
 Un equipo de salud recibe mediciones de presión arterial de un estudio en dos formatos (CSV y JSON) con errores de carga. El programa descarta los registros inválidos dejando constancia del motivo y resume la presión sistólica por grupo del estudio (A: control, B: intervención).
